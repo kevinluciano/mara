@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL Miami Roadside Assistance</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            line-height: 1.6;
+        }
+        
+        .container {
+            background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), 
+                        url('https://miamidadetowingservices.com/assets/images/image01.jpg?v=14b28b08') center/cover no-repeat fixed;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        header {
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+            background-color: rgba(0,0,0,0.7);
+        }
+        
+        .phone-strip {
+            width: 100%;
+            background-color: rgba(255, 69, 0, 0.85);
+            padding: 15px 0;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            font-family: 'Oswald', sans-serif;
+        }
+        
+        .main-title {
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+            background-color: rgba(0,0,0,0.7);
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+        
+        .services-circle {
+            background-color: rgba(0,0,0,0.85);
+            border-radius: 50%;
+            width: 320px;
+            height: 320px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 40px;
+            box-shadow: 0 0 30px rgba(255, 69, 0, 0.4);
+            border: 3px solid rgba(255, 69, 0, 0.5);
+        }
+        
+        .services-title {
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .service-item {
+            font-size: 1.2rem;
+            margin: 5px 0;
+            text-align: center;
+            font-weight: 500;
+        }
+        
+        .service-item:before {
+            content: "~";
+            color: orangered;
+            margin-right: 5px;
+        }
+        
+        .phone-button {
+            background-color: white;
+            color: orangered;
+            font-size: 1.4rem;
+            font-weight: 700;
+            padding: 15px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            margin: 20px 0;
+            display: inline-block;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+            font-family: 'Oswald', sans-serif;
+            border: 2px solid orangered;
+        }
+        
+        .phone-button:hover {
+            background-color: orangered;
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+        }
+        
+        .contact-section {
+            text-align: center;
+            padding: 30px;
+            width: 100%;
+            background-color: rgba(0,0,0,0.7);
+        }
+        
+        .contact-section h2 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 2.2rem;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-style: italic;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        
+        .footer {
+            width: 100%;
+            background-color: black;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 0.9rem;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="phone-strip">+1 (305) 934-2826</div>
+        </header>
+        
+        <div class="main-title">
+            <h1>AL Miami Roadside 24/7</h1>
+        </div>
+        
+        <div class="services-circle">
+            <h2 class="services-title">24/7 Roadside Service</h2>
+            <div class="service-item">Flat Tire</div>
+            <div class="service-item">Jumpstart</div>
+            <div class="service-item">Car Lockout</div>
+            <div class="service-item">Fuel Delivery</div>
+            <div class="service-item">Towing Service</div>
+        </div>
+        
+        <a href="tel:+13059342826" class="phone-button">305-934-2826</a>
+        
+        <div class="contact-section">
+            <h2>Contact Us</h2>
+            <p class="tagline">We're Here For You!</p>
+            <a href="tel:+13059342826" class="phone-button">CALL NOW</a>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 AL Miami Roadside Assistance. All Rights Reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
